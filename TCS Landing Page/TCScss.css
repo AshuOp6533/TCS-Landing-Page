@@ -1,0 +1,283 @@
+* {
+    background-color: black;
+    color: white;
+  }
+
+  #header {
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    border: 1px solid transparent;
+    background-color: rgb(36, 35, 35);
+    display: flex;
+  }
+
+  #header #header1 img {
+    background-color: rgb(36, 35, 35);
+
+  }
+
+  #header #header2 img {
+    background-color: rgb(36, 35, 35);
+
+  }
+
+  #header a,
+  p {
+    margin: 30px 50px 0px 0px;
+    background-color: rgb(36, 35, 35);
+
+
+  }
+
+  #header2 {
+    margin: 20px 100px 0px 0px;
+    background-color: rgb(36, 35, 35);
+
+  }
+
+  #page1 h1 {
+    margin-top: 100px;
+    margin-left: 200px;
+    height: 100px;
+    width: 400px;
+
+    /* border: 1px solid white; */
+    /* background-color: aqua; */
+  }
+
+  #img {
+    height: 400px;
+    width: 1000px;
+    border: 1px solid transparent;
+    margin-left: 200px;
+
+  }
+
+  #image1 {
+    height: 350px;
+    width: 950px;
+    border: 1px solid white;
+    background-image: url(./images/Backimg1girl.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+  }
+
+  #image1:hover {
+    height: 400px;
+    width: 1000px;
+  }
+
+  #snap {
+    display: flex;
+
+    justify-content: space-evenly;
+    margin-top: 50px;
+  }
+
+  .snap {
+    height: 100px;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+  }
+
+  #Snapshots {
+    height: 50px;
+    width: 100%;
+    margin-left: 100px;
+  }
+
+  #snap1 {
+    background-image: url(./images/Snap1.jpg);
+  }
+
+  #snap2 {
+    background-image: url(./images/Snap2.jpg);
+  }
+
+  #snap3 {
+    background-image: url(./images/Snap3.jpg);
+  }
+
+  #snap4 {
+    background-image: url(./images/Snap4.jpg);
+  }
+
+  #snap5 {
+    background-image: url(./images/Snap5.jpg);
+  }
+
+  #snap6 {
+    background-image: url(./images/Snap6.jpg);
+  }
+
+  #snap7 {
+    background-image: url(./images/Snap7.jpg);
+  }
+
+  #snap8 {
+    background-image: url(./images/Snap8.jpg);
+  }
+
+  #page2 p {
+    margin: 100px 0px 0px 100px;
+    background-color: black;
+  }
+
+  #page2 h1 {
+    margin: 30px 0px 0px 100px;
+    font-size: 60px;
+    height: 400px;
+    width: 400px;
+  }
+
+  #page3 h1 {
+    margin-left: 100px;
+
+  }
+
+  #pic {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #page4 h1 {
+    margin-left: 100px;
+  }
+
+  #ai {
+    margin-left: 100px;
+    height: 500px;
+    width: 1150px;
+    background-image: url(./images/al-cloud.jpg);
+  }
+
+  .ss {
+    display: flex;
+    justify-content: space-evenly;
+
+
+  }
+
+  #page5 {
+    width: 100%;
+    height: 700px;
+    background-image: url(./images/babycycle.jpg);
+    background-repeat: no-repeat;
+    background-color: white;
+
+  }
+
+  #text {
+    height: 600px;
+    width: 600px;
+    margin-top: 50px;
+    margin: 100px 0px 0px 600px;
+    border: 1px solid transparent;
+    background-color: white;
+    color: black;
+  }
+
+  #text p {
+    margin-left: 50px;
+    background-color: white;
+    color: rgb(70, 68, 68);
+  }
+
+  #text h1 {
+    margin-left: 50px;
+    color: brown;
+    background-color: white;
+  }
+
+  #para {
+    font-size: 20px;
+  }
+
+  .h2 {
+    display: inline-block;
+    height: 50px;
+    width: 170px;
+    border: 1px solid transparent;
+    background-color: white;
+    color: black;
+    margin-left: 50px;
+    margin-top: 100px;
+  }
+
+  #h2h2 {
+    width: 50px;
+    margin-left: 0px;
+  }
+
+  #h2h2 a {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-size: 40px;
+  }
+
+  #page6 {
+    height: 700px;
+    width: 100%;
+    border: 1px solid;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #page6 .v {
+    margin-top: 100px;
+    height: 400px;
+    width: 350px;
+    border: 1px solid black;
+  }
+
+  #page7 {
+    width: 100%;
+    height: 700px;
+    background-position: right;
+    background-image: url(./images/carpentry.jpg);
+    background-repeat: no-repeat;
+    background-color: white;
+
+  }
+
+  #page7 #content {
+
+    height: 600px;
+    width: 600px;
+    margin-top: 50px;
+    margin: 100px 0px 0px 00px;
+    border: 1px solid transparent;
+    background-color: white;
+    color: black;
+
+  }
+  #content p {
+    margin-left: 50px;
+    background-color: white;
+    color: rgb(70, 68, 68);
+  }
+  
+  #content h1 {
+    margin-left: 50px;
+    color: brown;
+    background-color: white;
+  }
+  #footer{
+    
+    height: 100px;
+    width: 100%;
+    border: 1px solid white;
+    background-color: black;
+    display: flex;
+  }
